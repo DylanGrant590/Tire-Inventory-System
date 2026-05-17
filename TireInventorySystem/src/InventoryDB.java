@@ -17,7 +17,7 @@ public class InventoryDB {
 
             stmt.executeUpdate();
 
-            System.out.println("Tire added!");
+            System.out.println("Tire added successfully!");
 
         } catch (SQLException e) {
             e.printStackTrace();
